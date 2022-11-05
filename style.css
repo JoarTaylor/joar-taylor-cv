@@ -44,6 +44,13 @@ main {
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
 }
 
+.portfolio-image {
+    width: 50%;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 /*nav-styling*/
 nav {
     grid-area: nav;
@@ -151,21 +158,21 @@ ul li  {
     flex-direction: row;
 }
 
-.left-info-items ul > * {
+.left-listitems {
     text-align: end;
     font-weight: bold;
+    padding-right: 1vw;
+    list-style: none;
+}
+
+.right-listitems {
+    font-weight: bold;
+    padding-left: 1vw;
+    list-style: none;
 }
 
 .left-info-items {
     border-right: 0.2px solid rgb(197, 194, 194);
-}
-
-.right-info-items ul {
-    padding-left: 1vw;
-} 
-
-.left-info-items ul {
-    padding-right: 1vw;
 }
 
 /*general layout for desktop*/
